@@ -1,0 +1,52 @@
+body {
+    background-color: #000000;
+    background-size: 100vw;
+    
+}
+
+.btn{
+    border-radius: 10px;
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.question {
+    padding: 1vw;
+    height: 700px;
+    width: 1400px;
+    margin: 50px 150px;
+    color: white;
+    float: left;
+    background: url(../img/board.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.question div {
+    color: white;
+}
+
+.question p{ 
+    color: white;
+}
+
+.question input{ 
+    background-color: #00000000;
+}
+
+.result {
+    height: 120px;
+    width: 270px;
+    margin: 20px 0px;
+    background-color: #00000000;
+    color: #000000;
+}
+
+.mathblock{
+    width: 700px;
+    height: 200px;
+    background-color: #00000000;
+}

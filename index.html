@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class="question">
+        <form action="" id="frm" name="frm">
+            <p><input type="text" name="name" id="name"></p>
+            <p><input type="number" name="nmbr" id="nmbr"></p>
+            <input type="button" class="btn" value="вывести" onclick="portal()">
+        </form>
+        <div id="result" class="result" >
+
+        </div>
+        <div class="mathblock" id="">
+            <b>ВЫЧИСЛЕНИЕ КВАДРАТНОГО КОРНЯ</b>
+            <form action="" id="math" name="math">
+            <p>a=<input type="text" name="a" id="a"></p>
+            <p>b=<input type="text" name="b" id="b"></p>
+            <p>c=<input type="text" name="c" id="c"></p>
+            <input type="button" class="btn" value="вычислить" onclick="square()">
+        </form>
+        </div>
+        <div id="mathresult" class="mathblock">
+
+        </div>  
+
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
